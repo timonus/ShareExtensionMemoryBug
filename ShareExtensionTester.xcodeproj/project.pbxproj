@@ -14,6 +14,7 @@
 		22BCE4C62952D00C0052DBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BCE4C52952D00C0052DBBE /* Assets.xcassets */; };
 		22BCE4C92952D00C0052DBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BCE4C72952D00C0052DBBE /* LaunchScreen.storyboard */; };
 		22BCE4CC2952D00C0052DBBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BCE4CB2952D00C0052DBBE /* main.m */; };
+		22BCE4D32952D1A20052DBBE /* very-large-photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22BCE4D22952D1A20052DBBE /* very-large-photo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		22BCE4C82952D00C0052DBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22BCE4CA2952D00C0052DBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22BCE4CB2952D00C0052DBBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22BCE4D22952D1A20052DBBE /* very-large-photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "very-large-photo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				22BCE4BD2952D00B0052DBBE /* SceneDelegate.m */,
 				22BCE4BF2952D00B0052DBBE /* ViewController.h */,
 				22BCE4C02952D00B0052DBBE /* ViewController.m */,
+				22BCE4D22952D1A20052DBBE /* very-large-photo.jpg */,
 				22BCE4C22952D00B0052DBBE /* Main.storyboard */,
 				22BCE4C52952D00C0052DBBE /* Assets.xcassets */,
 				22BCE4C72952D00C0052DBBE /* LaunchScreen.storyboard */,
@@ -133,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22BCE4D32952D1A20052DBBE /* very-large-photo.jpg in Resources */,
 				22BCE4C92952D00C0052DBBE /* LaunchScreen.storyboard in Resources */,
 				22BCE4C62952D00C0052DBBE /* Assets.xcassets in Resources */,
 				22BCE4C42952D00B0052DBBE /* Main.storyboard in Resources */,
