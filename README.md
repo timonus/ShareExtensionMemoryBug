@@ -12,11 +12,11 @@ Share extensions that inherit from `SLComposeServiceViewController` consume even
 
 In practice, on device share extensions that receive images as NSData don't crash, whereas ones that receive UIImages do crash.
 
-<video src="media/crash.mp4"/>
+<video src="https://dl.dropboxusercontent.com/s/17wfnxw755lu77z/crash-wFTj.mp4"/>
 
 The stack traces for these crashes appear to be adding UIImages to NSKeyedArchivers.
 
-![](media/crash.png)
+<img width="2672" alt="crash" src="https://user-images.githubusercontent.com/522951/211221317-60336709-f7fd-4353-95e2-c3bbd16dae39.png">
 
 I wrote [a blog post](https://medium.com/ios-os-x-development/reduce-share-extension-crashes-from-your-app-with-this-one-weird-trick-6b86211bb175) recently encouraging developers to share images as `NSData` from their apps, but it seems like the OS shouldn't take such a costly path when delivering UIImages to share extensions. It seems like this is a flaw in the OS implementation for extension data loading, not something developers using `UIActivityViewController` should have to work around.
 
